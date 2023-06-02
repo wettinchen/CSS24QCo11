@@ -33,19 +33,25 @@ https://www.youtube.com/@DaveGrayTeachesCode
 ###  6. HTML header, nav and hero
         home.html:
         (1)在 header 下面新增 section，並貼上 figure 和移除 hr
-        (2)使用 BEM: Block Element Modifier 命名常規，新增 header 的 class 為 header, h1 的 class 為 header__h1, nav 的 class 為 header__nav, ul 的 class 為 header__ul
+        (2)使用 BEM: Block Element Modifier 命名常規，
+        新增 header 的 class 為 header, h1 的 class 為 header__h1, 
+        nav 的 class 為 header__nav, ul 的 class 為 header__ul
         (3)將 about 的超連結移動至最下方，連結至 about.html
         (4)修改連結文字為 Menu, Hours, Contact, About
-        (5)在 section 中新增 h2，文字為 Bienvenidos!。使用 BEM，新增 section 的 class 為 hero，h2 的 class 為 hero__h2
-        (6)修改圖片解析度較高的圖片，圖片檔案為 tacos_and_drink_1000x667.png，預設寬度為 1000px，高度為 667px
+        (5)在 section 中新增 h2，文字為 Bienvenidos!。
+        使用 BEM，新增 section 的 class 為 hero，h2 的 class 為 hero__h2
+        (6)修改圖片解析度較高的圖片，圖片檔案為 tacos_and_drink_1000x667.png，
+        預設寬度為 1000px，高度為 667px
         (7)新增 figcaption 的 class 為 offscreen
 
         about.html:
         (1)複製 home.html 的 header 和 section 至 about.html
-        (2)將 about 的超連結移動至最上方，連結至首頁 home.html，文字修改為 Home，第二個超連結至 home.html 的 menu 的位置
+        (2)將 about 的超連結移動至最上方，連結至首頁 home.html，文字修改為 Home，
+        第二個超連結至 home.html 的 menu 的位置
         (3)修改 h1 的文字為 Little Taco Shop
         (4)移除 section 的 h2
-        (5)修改圖片檔案為 tacos_delicioso_1000x667.png，預設寬度為 1000px，高度為 667px，圖片未顯示時的文字為 Tacos Delicioso，title 為 Tacos Delicioso!
+        (5)修改圖片檔案為 tacos_delicioso_1000x667.png，預設寬度為 1000px，高度為 667px，
+        圖片未顯示時的文字為 Tacos Delicioso，title 為 Tacos Delicioso!
         (6)修改 figcaption 文字為 Try these Delicious Tacos
 
         hours.html:
@@ -54,10 +60,12 @@ https://www.youtube.com/@DaveGrayTeachesCode
         (3)在 header 下面新增 section，並貼上 figure 和移除 hr
         (4)修改圖片檔案為 tacos_tray_1000x667.png，預設寬度為 1000px，高度為 667px
         (5)新增 figcaption 的 class 為 offscreen，section 的 class 為 hero
-        (6)新增 header 的 class 為 header, h1 的 class 為 header__h1, nav 的 class 為 header__nav, ul 的 class 為 header__ul
+        (6)新增 header 的 class 為 header, h1 的 class 為 header__h1, 
+        nav 的 class 為 header__nav, ul 的 class 為 header__ul
 
         contact.html
-        (1)新增 header 的 class 為 header, h1 的 class 為 header__h1, nav 的 class 為 header__nav, ul 的 class 為 header__ul
+        (1)新增 header 的 class 為 header, h1 的 class 為 header__h1, 
+        nav 的 class 為 header__nav, ul 的 class 為 header__ul
         (2)移動第二個超連結至最後，連結至 about.html
         (3)修改連結文字為 Home, Menu, Hours, About
         (4)在 header 下面新增 section，並貼上 figure 和移除 hr
@@ -249,9 +257,12 @@ https://www.youtube.com/@DaveGrayTeachesCode
         (2)設定 contact__fieldset 的 border 為 none
         (3)設定 contact__p 的 margin 為 1em 0
         (4)設定 contact__label 的 display 為 block，字體粗細為 bold
-        (5)設定 contact__input 和 contact__textarea 的 padding 為 0.5em，border-radius 為 15px，border-width 為 2px，width 為 100%
+        (5)設定 contact__input 和 contact__textarea 的 padding 為 0.5em，
+        border-radius 為 15px，border-width 為 2px，width 為 100%
         (B16)設定 --BUTTON-COLOR 為白色
-        (6)設定 contact__button 的 padding 為 0.5em，border-radius 為 15px，背景顏色為 var(--HIGHLIGHT-COLOR)，文字顏色為 var(--BUTTON-COLOR)，字體粗細為 bold
+        (6)設定 contact__button 的 padding 為 0.5em，border-radius 為 15px，
+        背景顏色為 var(--HIGHLIGHT-COLOR)，文字顏色為 var(--BUTTON-COLOR)，
+        字體粗細為 bold
 
 ### 18. Reviewing progress
         再次閱覽，並開啟 Google 開發工具
